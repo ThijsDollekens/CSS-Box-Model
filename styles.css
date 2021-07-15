@@ -1,0 +1,37 @@
+
+.black-border {
+    
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 400px;
+}
+#green-background {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body { 
+   background-color: cornflowerblue;
+}
+.Border{
+    
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    border-right:5px red solid;
+    border-left:5px red solid;
+    margin: auto;
+    /*padding-top:10px;
+	padding-bottom:10px;
+	padding-right:5px;
+	padding-left:5px; */
+    padding: 10px 5px 10px 5px;
+    width: 400px;
+    text-align: center;
+}
+
+.list{ /*EEN HORIZONTALE LIJN WIL NIET LUKKEN...*/
+    display: inline;
+    float: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:red
+  }
